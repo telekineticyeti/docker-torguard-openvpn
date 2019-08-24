@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM armhf/alpine
 MAINTAINER Justin Dray <justin@dray.id.au>
 
 RUN apk add --no-cache openvpn openssl
